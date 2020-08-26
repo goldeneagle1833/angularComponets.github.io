@@ -1,32 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+
 body{
+    text-align: left;
     font-family: sans-serif;
     margin: 0;
+    padding: 0vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 33% auto;
     grid-template-rows: 50% auto;
+    grid-template-areas: 'UL UM UR' 
+                         'BL BM BR';
+}
+header{
+    grid-area: BR;
 }
 .upperleft{
     background-color: yellow;
+    grid-area: UL;
 }
 
 .upperMiddle{
     background-color: orange;
+    grid-area: UM;
 }
 
 .upperRight{
     background-color: red;
+    grid-area: UR;
 } 
 
 .bottomLeft{
     background-color: green;
+    grid-area: BL;
 }
 
 .bottomMiddle{
     background-color: blue;
+    grid-area: BM;
 }
 
 .bottomRight{
     background-color: purple;
+    grid-area: BR;
 }
 
