@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+   
+}
+
+.rowOne{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    
+}
+.topLeft{
+    background-color: yellow;
+    width: 500px;
+    margin: 3px;
+}
+
+.topMiddle{
+    background-color: orange;
+    width: 500px;
+    text-align: center;
+    margin: 3px;
+}
+
+.topRight{
+    background-color: red;
+    width: 500px;
+    margin: 3px;
+} 
+.rowTwo{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    
+}
+
+
+.bottomLeft{
+    background-color: green;
+    width: 500px;
+    margin: 3px;
+}
+
+.bottomMiddle{
+    background-color: blue;
+    width: 500px;
+    margin: 3px;
+}
+
+.bottomRight{
+    background-color: purple;
+    width: 500px;
+    margin: 3px;
+}
+
